@@ -6,7 +6,18 @@ import "slick-carousel/slick/slick-theme.css";
 import imgSrc from "./img.png";
 import imageSrc from "./image.png";
 import cardSrc from "./card.png";
-import { ContainerTruck02Icon } from "./icons";
+import {
+  Agreement02Icon,
+  ArrowTurnBackwardIcon,
+  AutoConversationsIcon,
+  CheckmarkBadge02Icon,
+  ContainerTruck02Icon,
+  CreditCardValidationIcon,
+  CustomerSupportIcon,
+  ShareKnowledgeIcon,
+  Tag01Icon,
+  TimeScheduleIcon,
+} from "./icons";
 
 const CustomNextArrow = (props) => {
   const { onClick } = props;
@@ -137,17 +148,83 @@ const Category = () => (
         <CarouselItem imgSrc={cardSrc} title="Grand Italiano" itemCount={26} />
       </Slider>
     </div>
-    <div className="flex items-center justify-center gap-5">
+    <div className="flex items-center justify-center gap-10 md:flex-wrap">
       <img src={require("./image-1.png")} className="w-[40%] md:w-[90%]" />
       <div>
         <h1 className="text-2xl font-bold">Преимушества работы с нами</h1>
-        <div className="grid grid-cols-2">
-          <div>
-            <div className="h-[40px] w-[40px] rounded-full">
+        <div className="grid grid-cols-2 mt-5 gap-5 md:grid-cols-1">
+          <div className="flex items-center gap-4">
+            <div className="h-[50px] w-[50px] rounded-full flex items-center justify-center bg-[#ffaa0d]">
               <ContainerTruck02Icon />
             </div>
+            <p>
+              Оперативная и <br /> бесплатная доставка
+            </p>
           </div>
-          <div></div>
+          <div className="flex items-center gap-4">
+            <div className="h-[50px] w-[50px] rounded-full flex items-center justify-center bg-[#ffaa0d]">
+              <Tag01Icon />
+            </div>
+            <p>Скидки и отсрочки платежа</p>
+          </div>
+          <div className="flex items-center gap-4">
+            <div className="h-[50px] w-[50px] rounded-full flex items-center justify-center bg-[#ffaa0d]">
+              <CustomerSupportIcon />
+            </div>
+            <p>
+              Собственная курьерская <br /> служба доставки
+            </p>
+          </div>
+          <div className="flex items-center gap-4">
+            <div className="h-[50px] w-[50px] rounded-full flex items-center justify-center bg-[#ffaa0d]">
+              <TimeScheduleIcon />
+            </div>
+            <p>
+              Экономия Ваших времени и <br /> средств
+            </p>
+          </div>
+          <div className="flex items-center gap-4">
+            <div className="h-[50px] w-[50px] rounded-full flex items-center justify-center bg-[#ffaa0d]">
+              <CheckmarkBadge02Icon />
+            </div>
+            <p>
+              Высококачественные <br /> продукты и товары
+            </p>
+          </div>
+          <div className="flex items-center gap-4">
+            <div className="h-[50px] w-[50px] rounded-full flex items-center justify-center bg-[#ffaa0d]">
+              <Agreement02Icon />
+            </div>
+            <p>
+              Гибкие схемы работы с каждым <br /> клиентом
+            </p>
+          </div>
+          <div className="flex items-center gap-4">
+            <div className="h-[50px] w-[50px] rounded-full flex items-center justify-center bg-[#ffaa0d]">
+              <ShareKnowledgeIcon />
+            </div>
+            <p>
+              Опыт работы более 3-x <br /> лет
+            </p>
+          </div>
+          <div className="flex items-center gap-4">
+            <div className="h-[50px] w-[50px] rounded-full flex items-center justify-center bg-[#ffaa0d]">
+              <ArrowTurnBackwardIcon />
+            </div>
+            <p>Возврат или обмен некондиционной <br /> продукции</p>
+          </div>
+          <div className="flex items-center gap-4">
+            <div className="h-[50px] w-[50px] rounded-full flex items-center justify-center bg-[#ffaa0d]">
+              <CreditCardValidationIcon />
+            </div>
+            <p>Любые удобные способы <br /> оплаты</p>
+          </div>
+          <div className="flex items-center gap-4">
+            <div className="h-[50px] w-[50px] rounded-full flex items-center justify-center bg-[#ffaa0d]">
+              <AutoConversationsIcon />
+            </div>
+            <p>Выгодные цены</p>
+          </div>
         </div>
       </div>
     </div>
