@@ -17,7 +17,7 @@ export default function App() {
       <Categoty />
       <Team />
       <Customer />
-        <Murojatuchun/>
+      <Murojatuchun />
       <Work />
       <Footer />
     </>
