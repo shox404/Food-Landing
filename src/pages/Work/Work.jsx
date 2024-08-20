@@ -22,8 +22,11 @@ function Work(props) {
               <img src={F5} alt=""/>
               <img src={F6} alt=""/>
 </div>
+<br/>
+<br/>
+<br/>
+<br/>
 
-            
         </div>
     );
 }

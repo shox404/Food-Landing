@@ -23,19 +23,19 @@ export default function Navbar() {
         <li>
           <a href="#home">Home</a>
         </li>
-        <select className="bg-transparent">
+        <li className="bg-transparent">
           <option>Menu</option>
-        </select>
-        <select className="bg-transparent">
+        </li>
+        <li className="bg-transparent">
           <option>Services</option>
-        </select>
+        </li>
         <li>
           <a href="#home">Offers</a>
         </li>
       </ul>
       <div className="flex gap-10 items-center md:m-auto">
-        <img src={require("./search.png")} className="w-4" />
-        <img src={require("./shop.png")} className="w-4" />
+        {/*<img src={require("./search.png")} className="w-4" />*/}
+        {/*<img src={require("./shop.png")} className="w-4" />*/}
         <button className="px-5 py-2 bg-white rounded-full">Contact</button>
       </div>
       <button

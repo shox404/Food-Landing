@@ -3,8 +3,8 @@ import React from "react";
 export default function Home() {
   return (
     <div className="overflow-hidden flex items-center h-screen">
-      <div className="relative ml-28 md:ml-5">
-        <img src={require("./text.png")} />
+      <div className="relative ml-56 mt-14 md:ml-5  md:mt-[450px]">
+<h3 className={"ml-1"}>Healthy & Testy Food</h3>
         <h1 className="text-5xl font-bold md:text-4xl">
           Enjoy Healthy Life <br /> & Testy Food.
         </h1>
@@ -23,8 +23,8 @@ export default function Home() {
         </div>
       </div>
       <img
-        src={require("./bg.png")}
-        className="w-[60%] absolute top-[-100px] right-[-100px] md:w-[80%]"
+        src={require("./Header Hero (5).png")}
+        className="w-[60%] absolute top-[-200px]  right-[-200px] md:w-[80%] md:mr-[200px]  md:mt-[200px] sm:w-[450px] "
       />
     </div>
   );
