@@ -18,7 +18,7 @@ export default function Navbar() {
         state ? 0 : "top-[-100%]"
       }`}
     >
-      <img src={require("./logo.png")} className="md:m-auto"/>
+      <img src={require("./logo.jpg")} className="md:m-auto h-[70px] rounded-md"/>
       <ul className="flex items-center gap-10 md:flex-wrap md:m-auto">
         <li>
           <a href="#home">Home</a>

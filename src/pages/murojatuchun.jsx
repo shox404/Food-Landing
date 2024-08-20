@@ -121,7 +121,7 @@ function Signin() {
         <br />
         <br />
         <br />
-        <div className="w-1/2 h-screen flex justify-center items-center mr-24 mt-[-220px] sm:w-[80%] sm:mr-[-20px] sm:mb-40 lg:w-[90%]   lg:mb-32 lg:mr-[20px]">
+        <div className="w-1/2 flex justify-center items-center mr-24 mt-[-220px] sm:w-[80%] sm:mr-[-20px] sm:mb-40 lg:w-[90%]   lg:mb-32 lg:mr-[20px]">
           <img src={Get} alt="Get in Touch" />
         </div>
       </div>
