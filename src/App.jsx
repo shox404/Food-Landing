@@ -6,6 +6,7 @@ import Footer from "./pages/Footer/Footer";
 import Home from "./pages/home";
 import About from "./pages/about";
 import Categoty from "./pages/category";
+import Murojatuchun from "./pages/murojatuchun";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <Categoty />
       <Team />
       <Customer />
+        <Murojatuchun/>
       <Work />
       <Footer />
     </>
