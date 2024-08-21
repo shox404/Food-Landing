@@ -58,7 +58,7 @@ function Signin() {
   };
 
   return (
-    <div className="w-full min-h-screen md:mt-[75vh] md:mb-[-50vh]">
+    <div className="w-full min-h-screen md:mt-[50vh] md:mb-[-75vh]">
       <h2 className="text-[36px] my-5 text-center sm:text-[25px]">
         Murojat uchun
       </h2>
