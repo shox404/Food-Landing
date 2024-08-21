@@ -58,12 +58,12 @@ function Signin() {
   };
 
   return (
-    <div className="w-full min-h-screen md:mt-[100vh] md:mb-[-50vh]">
+    <div className="w-full min-h-screen md:mt-[75vh] md:mb-[-50vh]">
       <h2 className="text-[36px] my-5 text-center sm:text-[25px]">
         Murojat uchun
       </h2>
       <div className="flex items-center justify-center gap-24 md:flex-col ">
-        <form onSubmit={handleSubmit} className="w-[40%] flex flex-col gap-20 md:w-[90%]">
+        <form onSubmit={handleSubmit} className="w-[40%] flex flex-col gap-8 md:w-[90%]">
           <input
             type="text"
             placeholder="Ism"
@@ -86,14 +86,14 @@ function Signin() {
           />
           <button
             type="submit"
-            className="w-full px-4 py-2 text-white bg-orange-500 rounded-md hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-500 sm:w-[90%]"
+            className="w-full px-4 py-2 mt-5 text-white bg-orange-500 rounded-md hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-500 sm:w-[100%]"
             data-aos="fade-down"
             data-aos-delay="600"
           >
             Yuborish
           </button>
         </form>
-        <img src={Get} alt="Get in Touch" className="w-[40%] md:w-[90%]" />
+        <img src={Get} alt="Get in Touch" className="w-[40%] md:w-[90%] mt-[-80px]" />
       </div>
     </div>
   );
