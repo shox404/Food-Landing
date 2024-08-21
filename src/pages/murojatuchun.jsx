@@ -93,7 +93,7 @@ function Signin() {
             Yuborish
           </button>
         </form>
-        <img src={Get} alt="Get in Touch" className="w-[40%] md:w-[90%] mt-[-80px]" />
+        <img src={Get} alt="Get in Touch" className="w-[40%] md:w-[90%] md:mt-[-80px]" />
       </div>
     </div>
   );
