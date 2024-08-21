@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="flex items-center justify-center w-full gap-5 py-20 px-36 md:flex-wrap md:py-10 md:px-5">
+    <div className="flex items-center md:mt-14 justify-center w-full gap-5 py-20 px-36 md:flex-wrap md:py-10 md:px-5">
       <img src={require("./image.png")} className="w-[40%] md:w-full" />
       <div className="relative ml-28 md:ml-5">
         <img src={require("./text.png")} />

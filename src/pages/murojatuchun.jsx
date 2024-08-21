@@ -79,8 +79,6 @@ function Signin() {
               data-aos="fade-down"
               data-aos-delay="200"
             />
-            <br />
-            <br />
 
             <input
               type="email"

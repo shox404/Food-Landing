@@ -4,12 +4,13 @@ export default function Home() {
   return (
     <div className="overflow-hidden flex items-center h-screen">
       <div className="relative ml-56 mt-14 md:ml-5  md:mt-[450px]">
-<h3 className={"ml-1"}>Healthy & Testy Food</h3>
-        <h1 className="text-5xl font-bold md:text-4xl">
+<h3 className={"ml-1 text-[20px]"}>Healthy & Testy Food</h3>
+        <h1 className="text-5xl font-bold md:text-4xl text-[60px]">
           Enjoy Healthy Life <br /> & Testy Food.
         </h1>
         <img src={require("./img.png")} className="absolute right-0 top-24 md:top-[50px]" />
-        <p className="py-7">
+          <br/>
+        <p className="py-7 text-[16px] text-[#4F4F4F]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Varius
           sed pharetra dictum neque massa congue
         </p>
