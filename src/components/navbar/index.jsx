@@ -56,7 +56,7 @@ export default function Navbar() {
           <img
               src={Lot}
               alt=""
-              className="md:m-auto h-[60px] rounded-md hidden md:fixed md:mr-[260px] fixed top-7 left-8 md:inline"
+              className="md:m-auto h-[60px] rounded-md hidden md:fixed md:mr-[260px] fixed top-7 right-5 md:inline"
           />
           <Button
               onClick={showDrawer}

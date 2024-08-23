@@ -14,52 +14,53 @@ import Data from "../Footer/Clock.png";
 function Footer(props) {
   return (
     <div
-      className=" md:flex-wrap  md:h-[150vh] w-full h-[500px] relative flex justify-between items-start bg-cover bg-center"
+      className=" md:flex-wrap  md:h-[110vh] w-full h-[500px] relative flex justify-between items-start bg-cover bg-center"
       style={{ backgroundImage: `url(${Footerr})` }}
     >
-      <div className="p-4 rounded-md mt-[150px] ml-[100px] md:ml-[40px] md:mt-[100px] ">
-        <img
-          src={require("./logo.jpg")}
-          className="md:m-auto h-[70px] rounded-md absolute top-20 md:top-10"
-        />
-        <h2 className="font-bold text-[24px]">Foodtuck</h2>
+      <div className="p-4 rounded-md mt-[10px] ml-[150px] md:ml-[25px] md:mt-[-50px] ">
+        {/*<img*/}
+        {/*  src={require("./logo.jpg")}*/}
+        {/*  className="md:m-auto h-[70px] rounded-md absolute top-20 md:top-10 "*/}
+        {/*/>*/}
+        {/*<h2 className="font-bold text-[24px] mt-[20px]">Foodtuck</h2>*/}
         <br />
-        <p className="w-[250px] text-start text-[20px]">
-          Subscribe to our newsletter and get 25% off
-        </p>
+        {/*<p className="w-[250px] text-start text-[20px]">*/}
+        {/*  Subscribe to our newsletter and get 25% off*/}
+        {/*</p>*/}
         <div className="flex mt-4">
-          <input
-            type="text"
-            placeholder="Enter Your Email"
-            className="w-[230px] h-[40px] rounded-md pl-2 "
-          />
-          <button className="ml-2 ">
-            <img src={Yub} alt="Send" />
-          </button>
+          {/*<input*/}
+          {/*  type="text"*/}
+          {/*  placeholder="Enter Your Email"*/}
+          {/*  className="w-[230px] h-[40px] rounded-md pl-2 "*/}
+          {/*/>*/}
+          {/*<button className="ml-2 ">*/}
+          {/*  <img src={Yub} alt="Send" />*/}
+          {/*</button>*/}
         </div>
-        <div className="flex gap-5 pt-4 ">
-          <img src={Pr} alt="Facebook" />
-          <img src={Tw} alt="Twitter" />
+        <div className="flex gap-5 mt-[320px]      ">
+          {/*<img src={Pr} alt="Facebook" />*/}
+          {/*<img src={Tw} alt="Twitter" />*/}
           <img src={Fe} alt="Facebook" />
           <img src={In} alt="Instagram" />
           <img src={Yu} alt="YouTube" />
         </div>
       </div>
 
-      <div className="p-4 rounded-md mt-[150px] mr-[700px] md:mt-[-50px] md:ml-[40px] md:mr-0 md:w-full">
-        <h2 className="text-[25px] font-bold">Contact us</h2>
+      <div className="p-4 rounded-md mt-[100px] mr-[690px]   md:mt-[-400px] md:ml-[25px] ml-[-405px] md:mr-0 md:w-full">
+        <h2 className="text-[25px] font-bold ml-2">Contact us</h2>
         <br />
-        <h3 className="flex items-center md:text-[18px]">
+        <h3 className="flex items-center md:text-[18px] w-[250px] ">
           <img src={Lokat} alt="Location" className="mr-2" />
-          Kolkata India, 3rd Floor, Office 45
+          Узбекистан, Ташкентская область,  Ташкентский район, ул. Хамкоробод дом 9.
         </h3>
         <h3 className="flex mt-3 items-center md:text-[18px]">
           <img src={Phon} alt="Phone" className="mr-2" />
-          00965-96659986
+          <a href=" Tel: +998 99 765-33-22">          Тел: +998 99 765-33-22
+          </a>
         </h3>
         <h3 className="flex mt-3 items-center md:text-[18px]">
           <img src={Emil} alt="Email" className="mr-2" />
-          M.Alyaqout@4house.Co
+          Emal.  Info@easyshopbymbm.uz
         </h3>
         <h3 className="flex mt-3 items-center md:text-[18px]">
           <img src={Data} alt="Hours" className="mr-2" />
@@ -77,7 +78,7 @@ function Footer(props) {
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
           className={
-            "ml-[-630px] mt-7 md:mt-[-40px] md:ml-[35px] md:h-[400px]   md:w-[96%]"
+            "ml-[-750px] mt-7 md:mt-[-70px] md:ml-[35px] md:h-[400px]    md:w-[96%]"
           }
         />
       </div>
